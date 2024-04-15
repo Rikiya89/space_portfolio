@@ -13,7 +13,6 @@ const HeroContent = () => {
         initial="hidden" 
         animate="visible"
         className='flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]'>
-
             <div className='h-full w-full flex flex-col gap-5 justify-center m-auto text-start'>
                 <motion.div 
                 variants={slideInFromTop} 
@@ -28,15 +27,15 @@ const HeroContent = () => {
                 className='flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[650px] w-auto h-auto'>
                     <span>
                     Providing
-                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> the best </span>
-                    immersive experience
+                    <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'>{""} the best {""}</span>
+                    immersive experience.
                     </span>
                 </motion.div>
                 <motion.p
                     variants={slideInFromLeft(0.8)}
                     className='text-lg text-gray-400 my-5 max-w-[600]'
                 >
-                    I'm a Creative Technologist with experience in Website and XR development. 
+                    I'm Rikiya Okawa with experience in Website and XR development. 
                     Check out my projects and skills.
                 </motion.p>
                 <motion.a
