@@ -24,13 +24,13 @@ return (
     >
         <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
         <h1 className="Welcome-text text-[13px]">
-        Fullstack Developer Portfolio
+            Rikiya Okawa Portfolio
         </h1>
     </motion.div>
 
     <motion.div
         variants={slideInFromLeft(0.5)}
-        className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+        className="flex flex-col gap-6 mt-6 2xl:text-6xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-3xl font-bold text-white max-w-[600px] w-auto h-auto"
     >
         <span>
         Providing
@@ -38,7 +38,7 @@ return (
             {" "}
             the best{" "}
         </span>
-        project exprience
+        immersive experience.
         </span>
     </motion.div>
 
@@ -46,20 +46,19 @@ return (
         variants={slideInFromLeft(0.8)}
         className="text-lg text-gray-400 my-5 max-w-[600px]"
     >
-        I&apos;m a Full Stack Software Engineer with experience in Website,
-        Mobile, and Software development. Check out my projects and skills.
+        Hello, I&apos; Rikiya Okawa. After returning to Japan, I worked at Costco Wholesale for about a year, then at AccorHotels for three years, and studied UI/UX Design at Digital Hollywood Tokyo until September 2022.
     </motion.p>
-    <motion.a
+    {/* <motion.a
         variants={slideInFromLeft(1)}
         className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
     >
         Learn More!
-    </motion.a>
+    </motion.a> */}
     </div>
 
     <motion.div
     variants={slideInFromRight(0.8)}
-    className="w-full h-full flex justify-center items-center"
+    className="w-full h-full 2xl:flex xl:flex lg:flex md:hidden sm:hidden justify-center items-center"
     >
     <Image
         src="/mainIconsdark.svg"
