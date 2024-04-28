@@ -83,14 +83,14 @@ export const Coding_skill = [
   {
     skill_name: "Java Script",
     Image: "/js.webp",
-    width: 65,
-    height: 65,
+    width: 80,
+    height: 80,
   },
   {
     skill_name: "Type Script",
     Image: "/ts.webp",
-    width: 65,
-    height: 65,
+    width: 80,
+    height: 80,
   },
   {
     skill_name: "Tailwind Css",
@@ -119,6 +119,12 @@ export const Coding_skill = [
   {
     skill_name: "C Sharp",
     Image: "/c_sharp.webp",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Unity",
+    Image: "/unity.webp",
     width: 80,
     height: 80,
   },
@@ -157,12 +163,6 @@ export const Coding_skill = [
     Image: "/figma.webp",
     width: 95,
     height: 95,
-  },
-  {
-    skill_name: "Unity",
-    Image: "/unity.webp",
-    width: 80,
-    height: 80,
   },
   {
     skill_name: "TouchDesigner",
