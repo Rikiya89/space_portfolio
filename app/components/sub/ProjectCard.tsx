@@ -12,16 +12,21 @@ interface Props {
 
 const ProjectCard = ({ src, title, description, url }: Props) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] cursor-pointer z-20">
-      <Link href={url} passHref legacyBehavior>  
-      <a target="_blank" rel="noopener noreferrer">
-          <Image
-            src={src}
-            alt={title}
-            width={1000}
-            height={1000}
-            className="w-full object-contain"
-          />
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] cursor-pointer z-20 w-96 h-auto">
+      <Link href={url} passHref legacyBehavior>
+        <a target="_blank" rel="noopener noreferrer" className="block">
+          <div className="relative">
+            {/* Overlay */}
+            <div className="absolute inset-0 bg-black bg-opacity-20"></div>
+            <Image
+              src={src}
+              alt={title}
+              width={1000}
+              height={1000}
+              className="w-full object-contain"
+              style={{ opacity: 0.7 }}  // Apply transparency effect
+            />
+          </div>
           <div className="relative p-4">
             <h1 className="text-2xl font-semibold text-white">{title}</h1>
             <p className="mt-2 text-gray-300">{description}</p>
