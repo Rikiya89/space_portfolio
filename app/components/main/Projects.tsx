@@ -13,7 +13,7 @@ const Projects = () => {
           src="/portfolio_no1.webp"
           title="Portfolio Website"
           description="Dive into a seamless blend of design and development in my interactive portfolio. Crafted with HTML, SCSS, and JavaScript, this site showcases my digital art and web development skills through intuitive navigation and engaging visuals. Connect and discover my projects in a sleek, user-friendly format."
-          url="https://apple-iphone3d-website.netlify.app/"  // Example project URL
+          url="https://www.rikiya-okawa963.jp/index.html/"  // Example project URL
         />
         <ProjectCard
           src="/weather_app.webp"
