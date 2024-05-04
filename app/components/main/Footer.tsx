@@ -15,7 +15,7 @@ return (
     <div className="w-full flex flex-col items-center justify-center m-auto">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
             
-            <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+            <div className="min-w-[200px] h-auto flex flex-col sm:items-center justify-start">
                 <div className="font-bold text-[16px]">Social Media</div>
                 <p className="flex flex-row items-center my-[15px] cursor-pointer">
                     <FaInstagram  />
